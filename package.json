@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "List files and directories inside the specified directory",
   "main": "out/index.js",
+  "homepage": "https://eelispigg.github.io/software-development-skills-front-end",
   "typings": "out/index.d.ts",
   "scripts": {
     "clean": "rimraf {tsconfig.tsbuildinfo,out}",
