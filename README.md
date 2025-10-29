@@ -1,0 +1,2 @@
+# You can run the project with this link: https://eelispigglut.github.io/Software-Development-Skills-Front-End-course/index.html . There you will see the current deployed website that is the project. If you want to see the course-work front end page you need to run it separately on for example a visual studio code live server extension because github pages doesn't allow
+# for multiple website deployments.
