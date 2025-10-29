@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fdfdfd;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 15px 0;
+}
+
+.logo h1 {
+  font-family: 'Playfair Display', serif;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.logo a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.main-menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.main-menu a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.main-menu a:hover {
+  color: #f4c10f;
+}
+
+.hero {
+  background: url('/images/hero.jpg') center/cover no-repeat;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero-heading {
+  font-size: 3rem;
+  font-family: 'Playfair Display', serif;
+  color: #000;
+}
+
+.hero-text {
+  font-size: 1.2rem;
+  margin: 20px 0;
+  color: #000;
+}
+
+.hero-about {
+  margin-top: 30px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-text {
+  font-size: 1.1rem;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+.bg-light {
+  background-color: #f4f4f4;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-xl {
+  font-size: 2rem;
+  margin: 40px 0 20px;
+}
+
+.destinations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-top: 20px;
+  padding-bottom: 40px;
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 20px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+.text-sm {
+  font-size: 0.9rem;
+}
+
+.faq {
+  background-color: #fff;
+  padding: 40px 20px;
+  border-top: 1px solid #ddd;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+}
+
+.faq-question {
+  width: 100%;
+  text-align: left;
+  background-color: #f4f4f4;
+  border: none;
+  padding: 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.faq-question:hover {
+  background-color: #eaeaea;
+}
+
+.faq-answer {
+  display: none;
+  padding: 15px;
+  background-color: #fafafa;
+  border-left: 3px solid #f4c10f;
+  margin-top: 5px;
+  border-radius: 5px;
+}
